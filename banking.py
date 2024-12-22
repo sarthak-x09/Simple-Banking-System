@@ -7,10 +7,6 @@ def checkCase():
     Case = 1
     return Case
 
-def checkCase():
-    Case = 2
-    return Case
-
 def addDeposit(Amount):
     newBalance = BalanceA+Amount
     print(f"Your new balance is : {newBalance}")
@@ -24,8 +20,7 @@ def Withdraw(Amount):
 def Balance():
     if(CaseV == 1):
       BalanceA = newAmount
-    if(CaseV ==2):
-      BalanceA = newAmount
+   
     elif(CaseV == 0):
         BalanceA = 0
     print("****************************")
